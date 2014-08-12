@@ -1,0 +1,14 @@
+<!--@subject Payment Scanned Check File@-->
+<!--@vars
+{"var data.name":"Sender Name",
+"var data.email":"Sender Email",
+"var data.telephone":"Sender Telephone",
+"var data.comment":"Comment"}
+@-->
+<h2 style="font-size:18px; font-weight:normal; margin:0;">Order #{{var increment_id}}
+  <small>(placed on {{var place_order_time}})</small>
+</h2><br/>
+<div class="info">
+  <strong>Order placed by:</strong><label>{{var customer_name}}</label><br/>
+  <strong>File Attach:</strong><a href="{{var file_attach_url}}">{{var file_attach_url}}</a><br/>
+</div>

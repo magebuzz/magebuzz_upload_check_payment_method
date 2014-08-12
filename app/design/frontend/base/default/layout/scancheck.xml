@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <default>
+  </default>
+  <checkout_onepage_index>
+    <reference name='head'>
+      <action method="addCss">
+        <stylesheet>css/magebuzz/scancheck.css</stylesheet>
+      </action>
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>uploadfile/jquery-1.4.2.min.js</name>
+      </action>
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>uploadfile/noconflict.js</name>
+      </action>
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>uploadfile/jquery.uploadify.v2.1.4.js</name>
+      </action>
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>uploadfile/swfobject.js</name>
+      </action>
+    </reference>
+  </checkout_onepage_index>
+</layout> 

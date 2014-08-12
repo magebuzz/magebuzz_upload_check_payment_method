@@ -1,0 +1,9 @@
+app/code/community/Magebuzz/Scancheck  app/code/community/Magebuzz/Scancheck
+app/design/adminhtml/default/default/template/scancheck  app/design/adminhtml/default/default/template/scancheck
+app/design/frontend/base/default/layout/scancheck.xml  app/design/frontend/base/default/layout/scancheck.xml
+app/design/frontend/base/default/template/scancheck  app/design/frontend/base/default/template/scancheck
+app/etc/modules/Magebuzz_Scancheck.xml  app/etc/modules/Magebuzz_Scancheck.xml
+app/locale/en_US/Magebuzz_Scancheck.csv  app/locale/en_US/Magebuzz_Scancheck.csv
+app/locale/en_US/template/email/scancheck  app/locale/en_US/template/email/scancheck
+skin/frontend/base/default/css/magebuzz/scancheck.css  skin/frontend/base/default/css/magebuzz/scancheck.css
+skin/frontend/base/default/uploadfile  skin/frontend/base/default/uploadfile

@@ -1,0 +1,10 @@
+<?php echo $this->htmlEscape($this->getMethod()->getTitle()) ?>
+<?php $order = $this->getInfo()->getOrder(); ?>
+<?php $files = Mage::getModel('scancheck/order')->getFiles($order); ?>
+<p>
+  <label><?php echo $this->__('File Uploaded:') ?></label>
+  <?php foreach ($files as $file): ?>
+    <a target="_blank" href='<?php $url = $this->getBaseUrl() . 'media/uploads' . $file['filename'];
+    echo str_replace('index.php/', '', $url); ?>'><?php echo basename($file['filename']); ?></a>
+  <?php endforeach; ?>
+</p>
